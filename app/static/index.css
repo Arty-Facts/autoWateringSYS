@@ -1,0 +1,27 @@
+body {
+    background-image: url("background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: black;
+}
+
+button{
+    width: 20%; 
+    height: 50px;
+    background-color: cornflowerblue
+}
+form {
+    display: inline;
+}
+
+.table {
+    width: 100%;
+}
+
+.btns {
+    width: 100%;
+}

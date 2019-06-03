@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+        <title>AWS</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="/static/index.css" />
+</head>
+
+<body>
+    <center> 
+        <div class=table>
+            <h1>{{ message }}</h1>
+            <div class="btns">
+                <form action="/on" method="post">
+                    <button name="onBtn" type="submit">on</button>
+                </form>
+                <form action="/off" method="post">
+                    <button name="offBtn" type="submit">off</button>
+                </form>
+            </div>
+        </div>
+    </center>
+
+</body>
+
+</html>
